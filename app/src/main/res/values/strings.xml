@@ -1,0 +1,21 @@
+<resources>
+
+    //NavHome
+    <string name="app_name">MyLibrary</string>
+    <string name="title_home">Home</string>
+    <string name="title_users">Users</string>
+    <string name="title_books">Books</string>
+
+    //Home
+    <string name="title_prestamo">Realizar préstamo</string>
+    <string name="txt_id_libro">ID libro</string>
+    <string name="txt_identificador_usuario">Identificador usuario</string>
+    <string name="txt_tipo_de_usuario">Tipo de usuario</string>
+    <string name="txt_btn_hecho">HECHO</string>
+    <string-array name="tipos_usuarios">
+        <item>Afiliado</item>
+        <item>Empleado</item>
+        <item>Invitado</item>
+    </string-array>
+
+</resources>
