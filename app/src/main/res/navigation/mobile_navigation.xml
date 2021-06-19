@@ -13,13 +13,21 @@
 
     <fragment
         android:id="@+id/navigation_books"
-        android:name="com.example.mylibrary.view.ui.books.UsersFragment"
+        android:name="com.example.mylibrary.view.ui.users.UsersFragment"
         android:label="@string/title_books"
         tools:layout="@layout/fragment_users" />
 
     <fragment
         android:id="@+id/navigation_users"
-        android:name="com.example.mylibrary.view.ui.users.NotificationsFragment"
+        android:name="com.example.mylibrary.view.ui.users.BooksFragment"
         android:label="@string/title_users"
-        tools:layout="@layout/fragment_books" />
+        tools:layout="@layout/fragment_books" >
+        <action
+            android:id="@+id/action_navigation_users_to_agregarLibro"
+            app:destination="@id/agregarLibro" />
+    </fragment>
+    <fragment
+        android:id="@+id/agregarLibro"
+        android:name="com.example.mylibrary.view.ui.books.AgregarLibro"
+        android:label="AgregarLibro" />
 </navigation>
